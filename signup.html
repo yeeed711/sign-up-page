@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>회원가입</title>
+</head>
+
+<body>
+  <header class="header__title">
+    <h1>Retro-Company</h1>
+  </header>
+  <section class="section">
+    <article>
+      <form class="sign-up-form" action="#" method="post">
+        <fieldset>
+          <legend>회원정보입력</legend>
+          <ul>
+            <li>
+              <label for="id">아이디</label>
+              <input id="id" type="text" placeholder="아이디를 입력해주세요" required />
+              <button class="id-check__btn btn--small" type="button">check</button>
+            </li>
+            <li>
+              <label for="password">비밀번호</label>
+              <input id="password" type="password" placeholder="비밀번호를 입력해주세요" required />
+            </li>
+            <li>
+              <label for="password-check">비밀번호 재확인</label>
+              <input id="password-check" type="password" placeholder="비밀번호를 다시 입력해주세요" required />
+            </li>
+            <li>
+              <label for="name">이름</label>
+              <input id="name" type="text" placeholder="실명을 입력해주세요" required />
+            </li>
+            <li>
+              <label for="birthday">생년월일</label>
+              <input id="birthday" type="text" placeholder="년(4자)" maxlength="4" required />
+              <select class="sign-up__select" name="birthday">
+                <option value="월">월</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              <input id="birthday" type="text" placeholder="일" required />
+            </li>
+            <li>
+              <label for="gender">성별</label>
+              <select id="gender" class="sign-up__select">
+                <option value="성별">성별</option>
+                <option value="남자">
+                  남자</option>
+                <option value="여자">
+                  여자</option>
+                <option value="선택안함">선택안함</option>
+              </select>
+
+            </li>
+            <li>
+              <label for="phone-number">휴대전화</label>
+              <input id="phone-number" type="tel" placeholder="전화번호를 입력해주세요" required />
+            </li>
+          </ul>
+          <button class="sign-up__btn">회원가입</button>
+      </form>
+      </fieldset>
+    </article>
+  </section>
+  <footer>
+    <ul class="footer-items">
+      <li>이용약관</li>
+      <li>개인정보처리방침</li>
+      <li>회원정보</li>
+      <li>고객센터</li>
+    </ul>
+  </footer>
+</body>
+
+</html>

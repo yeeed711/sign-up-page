@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "DungGeunMo";
+  background-color: #00f;
+  color: #fff;
+}
+
+body,
+h1,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-family: "DungGeunMo";
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.inline {
+  display: inline;
+}
+
+.header__title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.section {
+  width: 600px;
+  margin: 50px auto;
+}
+
+.login-form fieldset,
+.sign-up-form fieldset,
+.terms-form fieldset {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+}
+
+.sign-up-form input,
+.login-form input {
+  width: 350px;
+  height: 35px;
+  background-color: transparent;
+  color: #fff;
+  font-family: inherit;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.sign-up-form fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__btn,
+.sign-up__btn,
+.id-check__btn,
+.cancel__btn,
+.check__btn {
+  font-family: inherit;
+  width: 150px;
+  height: 50px;
+  border-color: #f5f5f5;
+  border-radius: 3px;
+  background-color: #00f;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.login__btn:hover,
+.sign-up__btn:hover,
+.id-check__btn:hover,
+.cancel__btn:hover,
+.check__btn:hover {
+  background-color: #fff;
+  color: #00f;
+}
+
+.login__btn {
+  align-self: center;
+}
+
+.move {
+  transform: translate(300%);
+}
+
+.btn--small,
+.sign-up__select {
+  width: 100px;
+  height: 40px;
+}
+
+#birthday {
+  width: 100px;
+}
+
+.sign-up__select {
+  background-color: transparent;
+  color: gray;
+  font-family: inherit;
+  padding-left: 10px;
+}
+
+.terms__description {
+  height: 100px;
+  font-size: 16px;
+  padding: 20px;
+  border: 1px solid;
+  overflow-y: scroll;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 200px;
+}
+
+.form__title,
+.radio__text {
+  font-size: 18px;
+}
+
+.terms-form__btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sign-up__btn {
+  align-self: center;
+}
+
+#login-name,
+#pw {
+  width: 95%;
+}
